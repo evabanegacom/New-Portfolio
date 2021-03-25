@@ -16,15 +16,15 @@ const SocialIcons = ({ props }) => {
   const socialIcons = [
     {
       icon: <GitHubIcon />,
-      href: 'https://github.com/Mupa1',
+      href: 'https://github.com/evabanegacom',
     },
     {
       icon: <TwitterIcon />,
-      href: 'https://twitter.com/mupa_mmbetsa',
+      href: 'https://twitter.com/precious_bones',
     },
     {
       icon: <LinkedInIcon />,
-      href: 'https://www.linkedin.com/in/mupa-mmbetsa',
+      href: 'https://www.linkedin.com/in/precious-udegbue/',
     },
   ];
 
