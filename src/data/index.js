@@ -48,17 +48,17 @@ export const projectsData = [
     imageSrc: portfolio,
     title: 'Stock Information App',
     description: 'A stock information app that gets data through API integration.',
-    techStack: [{ tech: 'React & Redux' }, { tech: 'API' }],
+    techStack: [{ tech: 'React & Redux' }, { tech: 'API' }, { tech: 'Html & Css' }],
     live: 'https://eagle-claw.herokuapp.com/',
     github: 'https://github.com/evabanegacom/React-capstone',
   },
   {
     imageSrc: newsweek,
-    title: 'Newsweek Clone',
-    description: 'A responsive grid-based UI clone from the Newsweek website homepage.',
-    techStack: [{ tech: 'HTML5' }, { tech: 'CSS3' }, { tech: 'BOOTSTRAP' }],
-    live: 'https://cocky-borg-5ade74.netlify.app/',
-    github: 'https://github.com/Mupa1/Newsweek-Clone',
+    title: 'Shopping App',
+    description: 'A responsive shopping app built with Material Ui and commerceJs with stripe implementation.',
+    techStack: [{ tech: 'React' }, { tech: 'Html5 & CSS3' }, { tech: 'Material Ui' }],
+    live: 'https://infallible-ritchie-f9f80e.netlify.app/',
+    github: 'https://github.com/evabanegacom/OnlineStore/',
   },
 ];
 
