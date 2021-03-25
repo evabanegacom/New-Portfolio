@@ -1,7 +1,7 @@
-import tastyRecipes from '../assets/tastyRecipes.png';
+import tastyRecipes from '../assets/rails.png';
 import shooter from '../assets/shooter.png';
-import newsweek from '../assets/newsweek.png';
-import portfolio from '../assets/portfolio.png';
+import newsweek from '../assets/shopping.png';
+import portfolio from '../assets/stock.png';
 import bookIt from '../assets/bookIT.png';
 
 export const headersData = [
@@ -23,34 +23,34 @@ export const projectsData = [
   {
     imageSrc: bookIt,
     title: 'BookIT',
-    description: 'A web application for booking an appointment with the doctor. The application is built using React and Redux libraries for the front-end and fetches data from a backend API built using Ruby on Rails.',
+    description: 'A web application for booking cars. The application is built using React and Redux libraries for the front-end and fetches data from a backend API built using Ruby on Rails.',
     techStack: [{ tech: 'React' }, { tech: 'Redux' }, { tech: 'Ruby on Rails' }],
-    live: 'https://bookit-doc-appointments.netlify.app/',
-    github: 'https://github.com/Mupa1/bookit-frontend',
+    live: 'http://infinite-justice.herokuapp.com/',
+    github: 'https://github.com/evabanegacom/Frontend-booking/',
   },
   {
     imageSrc: shooter,
-    title: 'Shooter Game',
-    description: 'An RPG shooter game built with Phaser 3, a JavaScript game framework designed to create 2D games',
-    techStack: [{ tech: 'JavaScript' }, { tech: 'Phaser3' }, { tech: 'Webpack' }],
-    live: 'https://mupa-shooter-game.netlify.app/',
-    github: 'https://github.com/Mupa1/rpg-shooter-game',
+    title: 'Restaurant Page',
+    description: 'A single pager restaurant application built with vanilla javascript',
+    techStack: [{ tech: 'JavaScript' }, { tech: 'HTML & CSS' }, { tech: 'Webpack' }],
+    live: 'https://raw.githack.com/evabanegacom/restaurant-page/feature/dist/index.html',
+    github: 'https://github.com/evabanegacom/restaurant-page',
   },
   {
     imageSrc: tastyRecipes,
-    title: 'Tasty Recipes',
-    description: 'A single-page application that lets the user discover or filter through a variety of recipes by fetching data from Spoonacular API.',
-    techStack: [{ tech: 'React' }, { tech: 'Redux' }],
-    live: 'https://tasty-yummy-recipes-app.netlify.app/',
-    github: 'https://github.com/Mupa1/tasty-recipes',
+    title: 'Group your Transactions',
+    description: 'A rails app that manages your recorded activities by analysing, grouping and aggregating them.',
+    techStack: [{ tech: 'Ruby' }, { tech: 'Ruby on Rails' }, { tech: 'Html & Css' }],
+    live: 'https://spetsnazz.herokuapp.com//',
+    github: 'https://github.com/evabanegacom/Railscapstone',
   },
   {
     imageSrc: portfolio,
-    title: 'This Portfolio',
-    description: 'A responsive personal web development portfolio built using react and screenshots combined using Figma.',
-    techStack: [{ tech: 'React' }, { tech: 'Material UI' }],
-    live: 'https://mupa-dev.netlify.app/',
-    github: 'https://github.com/Mupa1/my-portfolio',
+    title: 'Stock Information App',
+    description: 'A stock information app that gets data through API integration.',
+    techStack: [{ tech: 'React & Redux' }, { tech: 'API' }],
+    live: 'https://eagle-claw.herokuapp.com/',
+    github: 'https://github.com/evabanegacom/React-capstone',
   },
   {
     imageSrc: newsweek,
