@@ -44,7 +44,7 @@ const About = ({ props }) => {
             </Typography>
             <SocialIcons />
             <ThemeProvider theme={theme}>
-              <ExternalLink href="https://drive.google.com/file/d/1-2W75vO1GvY6rUZt0fGtN1QIhZnFKtdK/view?usp=sharing">
+              <ExternalLink href="https://drive.google.com/file/d/1-2W75vO1GvY6rUZt0fGtN1QIhZnFKtdK/view?usp=sharing/">
                 <StyledButton>
                   Get My Resume
                 </StyledButton>
