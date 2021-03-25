@@ -35,16 +35,16 @@ const About = ({ props }) => {
             </Typography>
             <Typography variant="body1" gutterBottom>
               {' '}
-              I am a self-taught full-stack developer with a background in graphic design.
+              I am a self-taught full-stack developer with a background in data science.
               <br />
-              I have always been fascinated by software&apos;s potentials as a designer. So I learned web development by building multiple websites and web applications.
+              I have always been fascinated by software&apos;s potentials as a data analyst. So I learned web development by building multiple websites and web applications.
               <br />
               Currently, I am looking for a position as a front-end or full-stack developer, joining an experienced team and contribute to building great products.
               {' '}
             </Typography>
             <SocialIcons />
             <ThemeProvider theme={theme}>
-              <ExternalLink href="https://docs.google.com/document/d/1oxxxVT-Vl2mcb0P8pg_EK_0UnQU_FIuZqdYFDq14hQA/edit">
+              <ExternalLink href="https://drive.google.com/file/d/1-2W75vO1GvY6rUZt0fGtN1QIhZnFKtdK/view?usp=sharing">
                 <StyledButton>
                   Get My Resume
                 </StyledButton>
