@@ -3,6 +3,7 @@ import shooter from '../assets/shooter.png';
 import newsweek from '../assets/shopping.png';
 import portfolio from '../assets/stock.png';
 import bookIt from '../assets/bookIT.png';
+import shopping from '../assets/screenshot-stupefied-meitner-9e56b5.netlify.app-2021.06.24-21_01_19.png';
 
 export const headersData = [
   {
@@ -39,7 +40,7 @@ export const projectsData = [
   {
     imageSrc: tastyRecipes,
     title: 'Group your Transactions',
-    description: 'A rails app that manages your recorded activities by analysing, grouping and aggregating them.',
+    description: 'A financial management rails app that manages your recorded expenses by analysing, grouping and aggregating them.',
     techStack: [{ tech: 'Ruby' }, { tech: 'Ruby on Rails' }, { tech: 'Html & Css' }],
     live: 'https://spetsnazz.herokuapp.com//',
     github: 'https://github.com/evabanegacom/Railscapstone',
@@ -59,6 +60,15 @@ export const projectsData = [
     techStack: [{ tech: 'React' }, { tech: 'Html5 & CSS3' }, { tech: 'Material Ui' }],
     live: 'https://infallible-ritchie-f9f80e.netlify.app/',
     github: 'https://github.com/evabanegacom/OnlineStore/',
+  },
+
+  {
+    imageSrc: shopping,
+    title: 'Ecommerce site',
+    description: 'A responsive shopping app built for a small start-up with CMS and CRM features.',
+    techStack: [{ tech: 'React & Redux' }, { tech: 'Html5 & CSS3' }, { tech: 'Material Ui' }, { tech: 'Ruby on Rails API' }, { tech: 'cloudinary & Postgresql' }],
+    live: 'https://stupefied-meitner-9e56b5.netlify.app/',
+    github: 'https://github.com/evabanegacom/Frontend-shopping/',
   },
 ];
 
